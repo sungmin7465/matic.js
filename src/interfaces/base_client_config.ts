@@ -15,5 +15,5 @@ export interface IBaseClientConfig {
     };
     log?: boolean;
     requestConcurrency?: number;
-
+    assetUrl?: string;
 }

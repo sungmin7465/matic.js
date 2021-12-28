@@ -17,8 +17,10 @@ type T_ABI_CACHE = {
 const cache: T_ABI_CACHE = {};
 
 export class ABIManager {
-    constructor(public networkName: string, public version: string) {
-
+    constructor(public networkName: string, public version: string, public assetUrl: string) {
+        if (assetUrl) {
+            service.abi.setBaseUrl(assetUrl);
+        }
     }
 
     init() {

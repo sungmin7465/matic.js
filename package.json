@@ -1,6 +1,6 @@
 {
-  "name": "@maticnetwork/maticjs",
-  "version": "3.1.0",
+  "name": "@sungmin7465/maticjs",
+  "version": "0.0.1",
   "description": "Javascript developer library for interacting with Matic Network",
   "main": "dist/npm.export.js",
   "types": "dist/ts/index.d.ts",
